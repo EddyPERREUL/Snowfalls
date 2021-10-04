@@ -9,23 +9,35 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body id="targetBody">
+    <!-- button change scene -->
     <button id="btnDarkMode" class="btn-switch-mode"></button>
+
+    <!-- button active snowfalls -->
     <button id="btnSwitchAnimate" class="btn-switch-animate"></button>
+
+    <!-- footer-->
     <footer>
-      <p>this project is created with HTML5 CSS3 and JS</p>
-      <a href="https://github.com/"
-        ><i class="fab fa-github"></i>link to the git hub repository</a
-      >
-      <a href="https://eddy-perreul.netlify.app/"
-        ><i class="fas fa-globe"></i>link to my website</a
-      >
+      <div class="footer-background"></div>
+      <section class="footer-texte">
+        <p>This project is created with HTML5 | CSS3 | JS</p>
+        <a
+          class="footer-link"
+          href="https://github.com/EddyPERREUL/Snowfalls.git"
+          ><i class="footer-icon fab fa-github"></i
+          ><span class="footer-pop-up">GitHub of the project</span></a
+        >
+        <a class="footer-link" href="https://eddy-perreul.netlify.app/"
+          ><i class="footer-icon fas fa-globe"></i
+          ><span class="footer-pop-up">My web site</span></a
+        >
+      </section>
     </footer>
   </body>
 
-  <script src="main.js"></script>
+  <script src="../js/main.js"></script>
   <script
     src="https://kit.fontawesome.com/54d6ef0b26.js"
     crossorigin="anonymous"
